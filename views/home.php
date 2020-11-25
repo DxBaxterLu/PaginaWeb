@@ -7,16 +7,16 @@
     <title>Casillero Electronico</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
-    <link rel='stylesheet' type='text/css' href='/css/style.css'>
+    <link rel='stylesheet' type='text/css' href='/assets/css/style.css'>
     
 </head>
 <body>
     <header>
         <nav>
-            <a href="#"><i class="fas fa-home"></i>Inicio</a>
-            <a href="#"><i class="fas fa-exclamation-triangle"></i>Alerta</a>
-            <a href="#"><i class="fas fa-quote-right"></i>Cotizador</a>
-            <a href="#"><i class="fas fa-door-open"></i>Ingreso</a>
+            <a href="./home.php"><i class="fas fa-home"></i> Inicio</a>
+            <a href="./alerta.php"><i class="fas fa-exclamation-triangle"></i> Alerta</a>
+            <a href="./cotizador.php"><i class="fas fa-quote-right"></i> Cotizador</a>
+            <a href="./login.php"><i class="fas fa-door-open"></i> Ingreso</a>
         </nav>
         <section class="textos-header">
             <h1>Locker Box </h1>
@@ -32,7 +32,7 @@
         <section class="contenedor sobre-nosotros">
             <h2 class="titulo">Nuestro producto</h2>
             <div class="contenedor-sobre-nosotros">
-                <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
+                <img src="/assets/img/ilustracion2.svg" alt="" class="imagen-about-us">
                 <div class="contenido-textos">
                     <h3><span>1</span>¿CÓMO FUNCIONA LOCKER BOX?</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
@@ -50,58 +50,58 @@
                 <h2 class="titulo">Portafolio</h2>
                 <div class="galeria-port">
                     <div class="imagen-port">
-                        <img src="img/img2.png" alt="">
+                        <img src="/assets/img/img2.png" alt="">
                         <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
+                            <img src="/assets/img/icono1.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/img2.png" alt="">
+                        <img src="/assets/img/img2.png" alt="">
                         <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
+                            <img src="/assets/img/icono1.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/img2.png" alt="">
+                        <img src="/assets/img/img2.png" alt="">
                         <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
+                            <img src="/assets/img/icono1.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/img2.png" alt="">
+                        <img src="/assets/img/img2.png" alt="">
                         <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
+                            <img src="/assets/img/icono1.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/img2.png" alt="">
+                        <img src="/assets/img/img2.png" alt="">
                         <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
+                            <img src="/assets/img/icono1.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/img2.png" alt="">
+                        <img src="/assets/img/img2.png" alt="">
                         <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
+                            <img src="/assets/img/icono1.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/img2.png" alt="">
+                        <img src="/assets/img/img2.png" alt="">
                         <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
+                            <img src="/assets/img/icono1.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/img2.png" alt="">
+                        <img src="/assets/img/img2.png" alt="">
                         <div class="hover-galeria">
-                            <img src="img/icono1.png" alt="">
+                            <img src="/assets/img/icono1.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
@@ -112,14 +112,14 @@
             <h2 class="titulo">Que dicen nuestros clientes</h2>
             <div class="cards">
                 <div class="card">
-                    <img src="img/face1.png" alt="">
+                    <img src="/assets/img/face1.png" alt="">
                     <div class="contenido-texto-card">
                         <h4>Name</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="img/face2.png" alt="">
+                    <img src="/assets/img/face2.png" alt="">
                     <div class="contenido-texto-card">
                         <h4>Name</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
@@ -132,17 +132,17 @@
                 <h2 class="titulo">Nuestros servicios</h2>
                 <div class="servicio-cont">
                     <div class="servicio-ind">
-                        <img src="img/ilustracion1.svg" alt="">
+                        <img src="/assets/img/ilustracion1.svg" alt="">
                         <h3>Name</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
                     </div>
                     <div class="servicio-ind">
-                        <img src="img/ilustracion4.svg" alt="">
+                        <img src="/assets/img/ilustracion4.svg" alt="">
                         <h3>Name</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
                     </div>
                     <div class="servicio-ind">
-                        <img src="img/ilustracion3.svg" alt="">
+                        <img src="/assets/img/ilustracion3.svg" alt="">
                         <h3>Name</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
                     </div>
@@ -168,7 +168,5 @@
         <h2 class="titulo-final">&copy; DxBaxterLu | Davo MB</h2>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></script>
 </body>
 </html>
