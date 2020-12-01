@@ -1,12 +1,9 @@
 <?php
 
-    class homeModel {
+    class homeModel extends MySQL{
         public function _construct() {
-            //echo "Mensaje desde modelo home";
+            parent::_construct();
         }
 
-        public function getAlerta($params) {
-            return "Datos de alerta: ".$params;
-        }
     }
 ?>

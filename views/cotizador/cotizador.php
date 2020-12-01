@@ -13,10 +13,10 @@
 <body>
     <header id="header-pages">
         <nav>
-            <a href="./home.html"><i class="fas fa-home"></i> Inicio</a>
-            <a href="./alerta.html"><i class="fas fa-exclamation-triangle"></i> Alerta</a>
-            <a href="./cotizador.html"><i class="fas fa-quote-right"></i> Cotizador</a>
-            <a href="./login.html"><i class="fas fa-door-open"></i> Ingreso</a>
+            <a href="<?= base_url(); ?>home"><i class="fas fa-home"></i> Inicio</a>
+            <a href="<?= base_url(); ?>alerta"><i class="fas fa-exclamation-triangle"></i> Alerta</a>
+            <a href="<?= base_url(); ?>cotizador"><i class="fas fa-quote-right"></i> Cotizador</a>
+            <a href="<?= base_url(); ?>login"><i class="fas fa-door-open"></i> Ingreso</a>
         </nav>
     </header>
     <p>pagina de cotizador</p>
